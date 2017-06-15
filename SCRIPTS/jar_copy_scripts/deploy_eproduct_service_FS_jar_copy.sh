@@ -1,0 +1,2 @@
+scp -i "C:/Users/venkatk/Documents/myVM" "E:/DevOpsInABox/Workspace/EProduct_Microservice_FS/target/Products-0.0.1-SNAPSHOT.jar" kiran@192.168.2.91:/home/kiran/puppet_productservice/
+echo "Copied ProductService jar to DevOps VM"

@@ -1,0 +1,2 @@
+scp -i "C:/Users/venkatk/Documents/myVM" "E:/DevOpsInABox/Workspace/ECheckout_Microservices_FS/target/CheckoutService-0.0.1-SNAPSHOT.jar" kiran@192.168.2.91:/home/kiran/puppet_echeckout/
+echo "Copied Checkout jar to DevOps VM"

@@ -1,0 +1,2 @@
+sh puppet_shoppingcarteureka/shoppingcarteureka_service.sh; sh puppet_customerservice/customer_service.sh; sh puppet_productservice/product_s
+ervice.sh; sh puppet_shoppingcart/Ecommerce_service.sh; sh puppet_echeckout/ECheckout_service.sh;
