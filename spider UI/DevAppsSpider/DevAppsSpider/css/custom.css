@@ -1,0 +1,374 @@
+.spider-main {
+    /*            background-color: #eee;*/
+    text-align: center;
+    padding: 10px;
+    padding-top: 9%;
+}
+
+.spider-banner {
+    margin: auto;
+    height: 300px;
+    border-radius: 68px;
+}
+
+.spider-center {
+    border-radius: 44%;
+    height: 260px;
+    background: -webkit-repeating-radial-gradient(blue, yellow 10%, green 15%);
+    background: -o-repeating-radial-gradient(blue, yellow 10%, green 15%);
+    background: -moz-repeating-radial-gradient(blue, yellow 10%, green 15%);
+    background: repeating-radial-gradient(#a2a2ad, #9a9a9a 10%, #898c89 15%);
+}
+
+.spider-btn-left {
+    background-color: #9a9a9b;
+    color: #545454;
+    border-bottom-left-radius: 36px;
+    border-top-right-radius: 49px;
+    width: 98px;
+    height: 20px;
+    margin-top: 15%;
+    margin-left: 106px;
+    display: block;
+}
+
+.spider-btn-right {
+    background-color: #9b9b9e;
+    color: #545454;
+    border-bottom-right-radius: 36px;
+    border-top-left-radius: 49px;
+    width: 98px;
+    display: block;
+    margin-left: 1px;
+}
+
+.spider-btn-left.spider-left1 {
+    margin-left: 69%;
+    margin-top: 22px;
+}
+
+.spider-btn-left.spider-left2 {
+    margin-left: 66%;
+    margin-top: 35px;
+}
+
+.spider-btn-left.spider-left3 {
+    margin-left: 66%;
+    margin-top: 35px;
+}
+
+.spider-btn-left.spider-left4 {
+    margin-left: 68%;
+    margin-top: 35px;
+}
+
+.spider-btn-right.spider-right1 {
+    margin-left: -27px;
+    margin-top: 22px;
+}
+
+.spider-btn-right.spider-right2 {
+    margin-left: -9px;
+    margin-top: 35px;
+}
+
+.spider-btn-right.spider-right3 {
+    margin-left: -11px;
+    margin-top: 35px;
+}
+
+.spider-btn-right.spider-right4 {
+    margin-left: -18px;
+    margin-top: 35px;
+}
+
+.spider-btn-right:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+.spider-btn-left:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+.spider-btn-right:active {
+    background-color: green;
+    color: #fff;
+}
+
+.spider-btn-left:active {
+    background-color: green;
+    color: #fff;
+}
+
+.box-i-left {
+    margin-left: 27%;
+    margin-top: 3px;
+    border-radius: 50%;
+    border: 4px solid #5a5454;
+    width: 17px;
+    height: 17px;
+    background-color: #ababab;
+    cursor: none;
+}
+
+.box-i-right {
+    margin-left: 58%;
+    margin-top: -27px;
+    border-radius: 50%;
+    border: 4px solid #5a5454;
+    width: 17px;
+    height: 17px;
+    background-color: #ababab;
+}
+
+
+/*        .box-i-box{background-color: #000;z-index: 0}*/
+
+.box-i-box-left {
+    background-color: #9f9fa6;
+    width: 17px;
+    height: 20px;
+    margin-left: -12px;
+    border-bottom-left-radius: 37px;
+    border-top-right-radius: 30px;
+}
+
+.box-i-box-right {
+    background-color: #9f9fa6;
+    width: 17px;
+    height: 20px;
+    margin-right: -10px;
+    border-top-left-radius: 37px;
+    border-bottom-right-radius: 30px;
+}
+
+.box-i-box-left.boxleft-1 {
+    margin-top: 8px;
+}
+
+.box-i-box-left.boxleft-2 {
+    margin-top: 24px;
+    margin-left: -25px;
+}
+
+.box-i-box-left.boxleft-3 {
+    margin-top: 24px;
+    margin-left: -25px;
+}
+
+.box-i-box-left.boxleft-4 {
+    margin-top: 24px;
+    margin-left: -14px;
+}
+
+.box-i-box-right.boxright-2 {
+    margin-top: 22px;
+    margin-right: -26px;
+}
+
+.box-i-box-right.boxright-3 {
+    margin-top: 22px;
+    margin-right: -26px;
+}
+
+.box-i-box-right.boxright-4 {
+    margin-top: 22px;
+    margin-right: -16px;
+}
+
+.fa-angle-left {
+    position: absolute;
+    margin-top: -49px;
+    font-size: 59px!important;
+    margin-left: -26px;
+    font-weight: 900;
+    color: #9c9c9e;
+}
+
+.fa-angle-right {
+    position: absolute;
+    margin-top: -49px;
+    font-size: 59px!important;
+    margin-left: 8px;
+    font-weight: 900;
+    color: #9c9c9e;
+}
+
+.bgsuccess_color {
+    background-color: green;
+}
+
+.bgunsuccess_color {
+    background-color: red;
+}
+
+.bgunsuccess_color.newspider {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(50deg);
+    color: #000;
+    font-size: 11px;
+    /* height: 115px; */
+    width: 131px;
+    float: left;
+    vertical-align: top;
+    margin-top: 69px;
+    position: absolute;
+    margin-left: 17px;
+}
+
+
+/*  New Css   Start*/
+
+.col-md-4.text-center img {
+    margin: auto;
+}
+
+.spider-btn {
+    background-color: #000;
+    width: 20px;
+    height: 30px;
+    margin-left: -106px;
+    margin-top: 27px;
+    position: absolute;
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(50deg);
+    color: #fff;
+    font-size: 11px;
+    width: 140px;
+    float: left;
+    vertical-align: top;
+    margin-top: -7px;
+    position: absolute;
+    margin-left: -193px;
+    border-bottom-right-radius: 31px;
+    border-bottom-left-radius: 37px;
+    padding: 6px 2px;
+}
+
+.bgsuccess_color0 {}
+
+.spider-btn:hover,
+.spider-btn:active,
+.spider-btn:focus {
+    background-color: green;
+    color: #fff;
+}
+
+.spider-btn1 {
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 37px;
+    margin-top: -24px;
+    margin-left: -200px;
+}
+
+.spider-success {
+    background-color: green;pointer-events: none;
+    cursor: pointer;
+}
+
+.spider-unsuccess {
+    background-color: red!important;pointer-events: none;
+    cursor: pointer;
+}
+
+.spider-btn2 {
+    margin-top: 54px;
+    margin-left: -253px;
+    transform: rotate(20deg);
+    border-bottom-right-radius: 7px;
+    border-bottom-left-radius: 37px;
+}
+
+.spider-btn3 {
+    margin-top: 140px;
+    margin-left: -256px;
+    transform: rotate(-10deg);
+    border-top-left-radius: 36px;
+    /* border-top-right-radius: 9px; */
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+
+.spider-btn4 {
+    margin-top: 254px;
+    margin-left: -210px;
+    transform: rotate(-55deg);
+    border-top-left-radius: 36px;
+    /* border-top-right-radius: 9px; */
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+
+.spider-btn5 {
+    margin-top: -326px;
+    margin-left: 70px;
+    transform: rotate(-45deg);
+    border-top-left-radius: 0px;
+    /* border-top-right-radius: 9px; */
+    border-bottom-right-radius: 37px;
+    border-bottom-left-radius: 0px;
+}
+
+.spider-btn6 {
+    margin-top: -244px;
+    margin-left: 126px;
+    transform: rotate(-15deg);
+    border-bottom-right-radius: 31px;
+    border-bottom-left-radius: 1px;
+}
+
+.spider-btn7 {
+    margin-top: -151px;
+    margin-left: 103px;
+    transform: rotate(384deg);
+    border-top-left-radius: 2px;
+    border-top-right-radius: 36px;
+    border-bottom-right-radius: 2px;
+    border-bottom-left-radius: 0px;
+}
+
+.spider-btn8 {
+    margin-top: -61px;
+    margin-left: 67px;
+    transform: rotate(44deg);
+    border-top-left-radius: 0px;
+    border-top-right-radius: 36px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+
+.spider {
+    position: absolute;
+    color: aquamarine;
+    margin-top: -212px;
+    margin-left: 140px;
+    color: rgba(255, 255, 255, 0.06)!important;
+    padding: 87px 0px;
+}
+
+img {
+    margin-top: 50%;
+    margin-left: 50%;
+}
+
+.spider-disable {
+    background-color: #908d8d;
+    pointer-events: none;
+    /* Disables the button completely. Better than just cursor: default; */
+    @include opacity(0.7);
+    cursor: pointer;
+}
+
+a:hover {
+    cursor: pointer;
+}
+
+
+/*  New Css   End*/

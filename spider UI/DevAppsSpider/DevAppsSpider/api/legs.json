@@ -1,0 +1,59 @@
+{
+    "buttons": [{
+            "id": "001",
+            "name": "server1",
+            "class": "spider-btn spider-btn1 ",
+            "childs": ["002", "003", "004", "005", "006"],
+            "active": ["002", "003"]
+        },
+        {
+            "id": "002",
+            "name": "server2",
+            "class": "spider-btn spider-btn2",
+            "childs": ["001", "004", "005", "006"],
+            "active": ["001", "004"]
+        },
+        {
+            "id": "003",
+            "name": "server3",
+            "class": "spider-btn spider-btn3",
+            "childs": ["001", "004", "007", "008"],
+            "active": ["007"]
+        },
+        {
+            "id": "004",
+            "name": "server4",
+            "class": "spider-btn spider-btn4",
+            "childs": ["001", "002", "003", "007", "008"],
+            "active": ["002"]
+        },
+        {
+            "id": "005",
+            "name": "server5",
+            "class": "spider-btn spider-btn5",
+            "childs": ["001", "002"],
+            "active": ["002"]
+        },
+        {
+            "id": "006",
+            "name": "server6",
+            "class": "spider-btn spider-btn6",
+            "childs": ["002", "007"],
+            "active": ["007"]
+        },
+        {
+            "id": "007",
+            "name": "server7",
+            "class": "spider-btn spider-btn7",
+            "childs": ["003", "004", "006", "008"],
+            "active": ["004", "008"]
+        },
+        {
+            "id": "008",
+            "name": "server8",
+            "class": "spider-btn spider-btn8",
+            "childs": ["007", "004"],
+            "active": ["007"]
+        }
+]
+}

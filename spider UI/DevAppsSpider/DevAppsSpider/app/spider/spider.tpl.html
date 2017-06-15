@@ -1,0 +1,18 @@
+
+    <div class="container">
+        <div class="spider-main">
+            <div class="col-md-4"></div>
+            <div class="col-md-4 text-center">
+                <div ng-repeat="button in leftButtons">
+                    <a ng-click="childSpider(button)"  ng-class="button.class" >{{button.name}}</a>
+                </div>
+                 <img src="./app/spider/Spider2.png" alt="spider" >
+                 <div ng-repeat="button in rightButton">
+                    <a ng-click="childSpider(button)"  ng-class="button.class"  >{{button.name}}</a>
+                </div>
+
+            </div>
+                <div class="col-md-4"></div>
+
+            </div>
+        </div>

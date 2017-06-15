@@ -1,0 +1,26 @@
+[{
+    "id": null,
+    "serviceName": "ECommerce-master",
+    "dependentServices": ["http://localhost:9200/findByProductName/ + tagName", "http://localhost:8767/customer/add", "http://localhost:8767/customer/login/ + customer.getUsername()", "http://localhost:8766/shoppingcart/OrderService/create/", "http://localhost:8766/shoppingcart/OrderService/get/productList/", "http://localhost:8764/checkout/addCheckoutDetails/"],
+    
+    "downServices": ["http://localhost:9200/", "http://localhost:8766/", "http://localhost:8767/"],
+    "upServices": []
+}, {
+    "id": null,
+    "serviceName": "ECheckout_Microservice-master",
+    "dependentServices": [],
+    "downServices": [],
+    "upServices": []
+}, {
+    "id": null,
+    "serviceName": "ECustomer_Microservice-master",
+    "dependentServices": [],
+    "downServices": [],
+    "upServices": []
+}, {
+    "id": null,
+    "serviceName": "EEureka_Microservice-master",
+    "dependentServices": [],
+    "downServices": [],
+    "upServices": []
+}]
